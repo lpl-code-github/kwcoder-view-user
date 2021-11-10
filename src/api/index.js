@@ -19,6 +19,7 @@ let loadingInstance
 axios.defaults.timeout = 100000
 
 const service = axios.create({
+
 	// 建文服务器地址
 	// baseURL: 'https://kwcoder.club:9000', 
 	
