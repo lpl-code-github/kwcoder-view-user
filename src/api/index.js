@@ -21,13 +21,13 @@ axios.defaults.timeout = 100000
 const service = axios.create({
 
 	// 建文服务器地址
-	// baseURL: 'https://kwcoder.club:9000', 
+	baseURL: 'https://kwcoder.club:9000', 
 	
 	// 李鹏龙阿里云服务器2地址
 	// baseURL: 'http://121.199.44.171:9000',
 	
 	// 本地后端地址
-	baseURL: 'http://localhost:9000'
+	// baseURL: 'http://localhost:9000'
 })
 
 
